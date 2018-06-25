@@ -6,7 +6,7 @@ class Application
     hour = Time.now.hour
 
     if hour > 12
-      resp.write('Good Afternood!')
+      resp.write('Good Afternoon!')
     else
       resp.write('Good Morning!')
     end
